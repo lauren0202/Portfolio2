@@ -1,0 +1,30 @@
+.main-quote-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 30px;
+}
+
+.quote-top-mark,
+.quote-bottom-mark {
+  color: #cfcfc6;
+  font-size: 2.4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.main-quote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #716a5c;
+  font-size: 1.6rem;
+  font-style: italic;
+  margin: 0 0 0 0;
+  line-height: 1.7;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-spacing {
+  height: 200px;   /* 위아래 간격(여백) 크기, 필요에 따라 조절 가능 */
+}

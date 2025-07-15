@@ -1,0 +1,57 @@
+.intro-editor-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  background: #fff9f8;
+  padding: 36px 28px 28px 28px;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px 0 rgba(80, 70, 60, 0.08);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.intro-input {
+  width: 320px;
+  font-size: 1.2rem;
+  padding: 14px 16px;
+  border: 1.8px solid #937f8541;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #fff;
+  color: #937f8541;
+}
+
+.intro-input:focus {
+  border-color: #edbecb;
+  background: #fff6f7;
+}
+
+.intro-btn {
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1.7px solid #d6cfc6;
+  background: #fff9f8;
+  color: #7b7b7bff;
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s;
+}
+
+.intro-btn:hover {
+  background: #ffe5ec;
+  border-color: #c4a4a9ff;
+  color: #7b7b7bff;
+}
+
+.intro-preview {
+  margin-top: 8px;
+  font-size: 1.12rem;
+  color: #77736a;
+}
+
+.intro-preview span {
+  font-weight: 600;
+  color: #403636;
+}
